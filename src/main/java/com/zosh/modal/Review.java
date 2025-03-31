@@ -40,19 +40,6 @@ public class Review {
 	
 	private LocalDateTime createdAt;
 
-	public Review() {
-		// TODO Auto-generated constructor stub
-	}
-
-	public Review(Long id, String review, Product product, User user, LocalDateTime createdAt) {
-		super();
-		this.id = id;
-		this.review = review;
-		this.product = product;
-		this.user = user;
-		this.createdAt = createdAt;
-	}
-
 	public Long getId() {
 		return id;
 	}
