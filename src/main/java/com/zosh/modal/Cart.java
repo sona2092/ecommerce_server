@@ -48,22 +48,6 @@ public class Cart {
     private int totalDiscountedPrice;
     
     private int discounte;
-    
-    public Cart() {
-		// TODO Auto-generated constructor stub
-	}
-
-	public Cart(Long id, User user, Set<CartItem> cartItems, double totalPrice, int totalItem, int totalDiscountedPrice,
-			int discounte) {
-		super();
-		this.id = id;
-		this.user = user;
-		this.cartItems = cartItems;
-		this.totalPrice = totalPrice;
-		this.totalItem = totalItem;
-		this.totalDiscountedPrice = totalDiscountedPrice;
-		this.discounte = discounte;
-	}
 
 	public Long getId() {
 		return id;

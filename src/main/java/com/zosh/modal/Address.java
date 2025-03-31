@@ -51,24 +51,6 @@ public class Address {
     private User user;
     
     private String mobile;
-    
-    public Address() {
-		// TODO Auto-generated constructor stub
-	}
-
-	public Address(Long id, String firstName, String lastName, String streetAddress, String city, String state,
-			String zipCode, User user, String mobile) {
-		super();
-		this.id = id;
-		this.firstName = firstName;
-		this.lastName = lastName;
-		this.streetAddress = streetAddress;
-		this.city = city;
-		this.state = state;
-		this.zipCode = zipCode;
-		this.user = user;
-		this.mobile = mobile;
-	}
 
 	public Long getId() {
 		return id;

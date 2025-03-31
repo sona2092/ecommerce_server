@@ -54,26 +54,6 @@ public class User {
     
     private LocalDateTime createdAt;
 
-    public User() {
-		// TODO Auto-generated constructor stub
-	}
-    
-	public User(Long id, String firstName, String lastName, String password, String email, String role, String mobile,
-			List<Address> addresses, List<Rating> ratings, List<Review> reviews, LocalDateTime createdAt) {
-		super();
-		this.id = id;
-		this.firstName = firstName;
-		this.lastName = lastName;
-		this.password = password;
-		this.email = email;
-		this.role = role;
-		this.mobile = mobile;
-		this.addresses = addresses;
-		this.ratings = ratings;
-		this.reviews = reviews;
-		this.createdAt = createdAt;
-	}
-
 	public Long getId() {
 		return id;
 	}

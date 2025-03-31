@@ -1,7 +1,5 @@
 package com.zosh.modal;
 
-
-
 import com.fasterxml.jackson.annotation.JsonIgnore;
 import com.zosh.user.domain.OrderStatus;
 

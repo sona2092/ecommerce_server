@@ -41,19 +41,6 @@ public class Rating {
     
     private LocalDateTime createdAt;
 
-    public Rating() {
-		// TODO Auto-generated constructor stub
-	}
-
-	public Rating(Long id, User user, Product product, double rating, LocalDateTime createdAt) {
-		super();
-		this.id = id;
-		this.user = user;
-		this.product = product;
-		this.rating = rating;
-		this.createdAt = createdAt;
-	}
-
 	public Long getId() {
 		return id;
 	}
